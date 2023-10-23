@@ -7,20 +7,22 @@ const OBJ = "obj";
 const SOA = "soa";
 
 const LIBRARIES = [
-  { kind: SOA, name: "bitecs" },
-  { kind: SOA, name: "harmony-ecs" },
-  { kind: SOA, name: "piecs" },
-  { kind: SOA, name: "wolf-ecs" },
-  { kind: OBJ, name: "becsy" },
-  { kind: OBJ, name: "ecsy" },
-  { kind: OBJ, name: "geotic" },
-  { kind: OBJ, name: "goodluck" },
-  { kind: OBJ, name: "javelin-ecs" },
+  // { kind: SOA, name: "bitecs" },
   { kind: OBJ, name: "miniplex" },
-  { kind: OBJ, name: "perform-ecs" },
-  { kind: OBJ, name: "picoes" },
-  { kind: OBJ, name: "tiny-ecs" },
-  { kind: OBJ, name: "uecs" },
+  // { kind: OBJ, name: "sqlite3" },
+  { kind: OBJ, name: "better-sqlite3" },
+  // { kind: SOA, name: "harmony-ecs" },
+  // { kind: SOA, name: "piecs" },
+  // { kind: SOA, name: "wolf-ecs" },
+  // { kind: OBJ, name: "becsy" },
+  // { kind: OBJ, name: "ecsy" },
+  // { kind: OBJ, name: "geotic" },
+  // { kind: OBJ, name: "goodluck" },
+  // { kind: OBJ, name: "javelin-ecs" },
+  // { kind: OBJ, name: "perform-ecs" },
+  // { kind: OBJ, name: "picoes" },
+  // { kind: OBJ, name: "tiny-ecs" },
+  // { kind: OBJ, name: "uecs" },
 ];
 
 const BENCHMARKS = {
